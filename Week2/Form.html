@@ -1,1 +1,67 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+        form {
+            margin : auto;
+            text-align: left;
+            width: 65%;
+            /* padding-left: 35%; */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Advertising Estimate</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name/Company name</label>
+                <input class="form-control" type="text" maxlength="10">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="mail">
+            </div>
+            <div class="form-group">
+                <label>Add Date</label>
+                <input class="form-control" type="date">
+            </div>
+            <div>
+                <label>Advertising options</label>
+                <div><input type="radio" name="op1" class="radio">option 1</div>
+                <div><input type="radio" name="op1" class="radio">option 2</div>
+                <div><input type="radio" name="op1" class="radio">option 3</div>
+            </div>
+            <div class="">
+                <label>Advertising options</label>
+                <div><input name="op2" class="checkbox" type="checkbox">option 1</div>
+                <div><input name="op2" class="checkbox" type="checkbox">option 2</div>
+                <div><input name="op2" class="checkbox" type="checkbox">option 3</div>
+            </div>
+            <div class="form-group">
+                <label>title</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label>comments</label>
+                <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" onclick="alertFunc()" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    const alertFunc = () => alert("Data submitted successfully");
+</script>
+</html>
