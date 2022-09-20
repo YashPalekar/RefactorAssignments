@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5ab07a6bfb.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(198, 220, 221);
+        }
+        table, footer {
+            margin-top: 60px;
+        }
+        button {
+            background-color: rgb(87, 162, 223);
+            color: white;
+            border-radius: 2px;
+            border: none;
+            font-size: 1.2rem;
+        }
+        input, button {
+            max-height: 2.5rem;
+        }
+        .btn-delete {
+            background-color: crimson;
+        }
+        .top {
+            margin: 5px 20px;
+            margin-top: 60px;
+        }
+        .search {
+            width: 30%;
+            left: 20px;
+        }
+        .btn-search {
+            margin-right: 5px;
+        }
+        .tableParent {
+            width: 80%; 
+            margin: auto;
+        }
+        select {
+            width: 40px;
+            height: 35px;
+            border: lightgray 1px;
+            border-style: groove;
+            box-shadow: none;
+        }
+        .justify-content-center {
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- search bar -->
+    <div class="top row">
+        <div class="search input-group col-2">
+            <input type="search" class="form-control rounded" placeholder="Type to search..." aria-label="Search" aria-describedby="search-addon" />
+            <button type="button" class="btn btn-search btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button type="reset" class="btn btn-primary">Clear</button>
+        </div>
+        <div class="tools col-1 ms-auto">
+            <button type="button" class="btn btn-primary"><i class="fa-solid fa-file-excel"></i></button>
+            <button type="button" class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+            <button type="button" class="btn btn-primary"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+    </div>
+
+    <!-- table -->
+    <div class="tableParent">
+        <table class="table table-light">
+            <tr class="table-primary">
+                <th scope="col">Method code</th>
+                <th scope="col">Method Name</th>
+                <th scope="col">Method description</th>
+                <th scope="col">Action</th>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>lorem ipsum</td>
+                <td>
+                    <button type="button"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>lorem ipsum</td>
+                <td>
+                    <button type="button"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>lorem ipsum</td>
+                <td>
+                    <button type="button"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>lorem ipsum</td>
+                <td>
+                    <button type="button"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>lorem ipsum</td>
+                <td>
+                    <button type="button"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>lorem ipsum</td>
+                <td>
+                    <button type="button"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>lorem ipsum</td>
+                <td>
+                    <button type="button"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>ipsum</td>
+                <td>lorem ipsum</td>
+                <td>
+                    <button type="button"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- footer -->
+    <footer class="container m-5">
+        <div class="pagination justify-content-center row">
+            <div class="col-4"></div>
+            <select class="col-1 form-select-sm" name="page" id="page">
+                <option value="1">5</option>
+                <option value="2">10</option>
+                <option value="3">15</option>
+                <option value="4">20</option>
+                <option value="5">25</option>
+                <option value="6">30</option>
+            </select>
+
+            <div class="col-1"></div>
+            <div class="col-2"><h5>Record(s) 1 out of 30</h5></div>
+            <div class="col-1"></div>
+
+            <ul class="pagination col-3">
+              <li class="page-item">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&lt;&lt;</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">&lt;</a></li>
+              <li class="page-item"><a class="page-link" href="#">&gt;</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">&gt;&gt;</a>
+              </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
