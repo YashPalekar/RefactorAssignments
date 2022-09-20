@@ -15,15 +15,15 @@
         }
         footer {
             background-color: rgb(43, 56, 94);
-            margin: auto;
-            padding: 10px 25%;
             color: white;
+            padding: 30px;
         }
         img {
             width: 100%;
         }
         #about{
             padding: 40px 60px;
+            color: white;
         }
         .navbar-brand {
             font-weight: bold;
@@ -44,7 +44,6 @@
             margin: 10px;
         } */
         .custom-div {
-            color: white;
             margin: auto;
             width: 60%
         }
@@ -69,6 +68,9 @@
         } 
         .card-title {
             padding: 10px 0;
+        }
+        .footer-col{
+            padding: 15px 75px;
         }
     </style>
     <title>Document</title>
@@ -103,13 +105,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="2000">
-                <img src="https://source.unsplash.com/featured" class="fluid d-block w-100" alt="" srcset="">
+                <img src="https://images.unsplash.com/photo-1649867538256-9dc186418e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="fluid d-block w-100" alt="" srcset="">
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://source.unsplash.com/featured" class="fluid d-block w-100" alt="" srcset="">
+                <img src="https://images.unsplash.com/photo-1657458889762-7f163b9b459b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="fluid d-block w-100" alt="" srcset="">
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://source.unsplash.com/featured" class="fluid d-block w-100" alt="" srcset="">
+                <img src="https://images.unsplash.com/photo-1646142998103-e50b8fef39fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="fluid d-block w-100" alt="" srcset="">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
@@ -125,22 +127,22 @@
     <!-- DIVS WITH HEADERS -->
     <div id="about" style="background-color:black">
         <div class="container custom-div">
-            <div class="row">
-                <div class="col">
+            <div class="row row-cols-1 row-cols-lg-3 mb-3">
+                <div class="col col-lg-4">
                     <i class="fa fa-brands fa-windows"></i>
                     <header>Microsoft Stack Development</header>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus eget nisi id accumsan. Aenean porta massa justo, sit amet placerat nisi egestas dictum. Donec urna ipsum, imperdiet et sagittis at, ultrices in tortor. Aenean varius, turpis sed luctus tincidunt, mauris nisl consectetur nibh, sed volutpat nisi quam rhoncus ex.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col col-lg-4">
                     <i class="fa fa-solid fa-box-archive"></i>
                     <header>Products</header>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus eget nisi id accumsan. Aenean porta massa justo, sit amet placerat nisi egestas dictum. Donec urna ipsum, imperdiet et sagittis at, ultrices in tortor. Aenean varius, turpis sed luctus tincidunt, mauris nisl consectetur nibh, sed volutpat nisi quam rhoncus ex.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col col-lg-4">
                     <i class="fa fa-solid fa-users"></i>
                     <header>Consulting</header>
                     <p>
@@ -155,22 +157,22 @@
     <!-- OFFERINGS -->
     <div id="product" class="offerings container-fluid ">
         <h3 style="text-align:center; margin:auto;padding: 5px;padding-bottom: 30px; width: 60%;">OUR OFFERINGS</h3>
-        <div class="row row-cols-1 row-cols-md-3 mb-3">
-            <div class="col col-lg-4 col-md-6">
+        <div class="custom-div row width row-cols-1 row-cols-lg-3 mb-3">
+            <div class="col col-lg-4">
                 <div class="card mb-4 rounded-3 shadow-sm">
                 <img src="https://img.freepik.com/free-vector/illustrated-business-person-meditating_52683-60757.jpg?w=1060&t=st=1663592495~exp=1663593095~hmac=275b6a8f02b300c9a263793904e2827bde0b006d7151b23f565c2f11fcd7ba6c" alt="" class="vector">
                 <h5 class="card-title">Software Consulting</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus eget nisi id accumsan. Aenean porta massa justo, sit amet placerat nisi egestas dictum. Donec urna ipsum, imperdiet et sagittis at, ultrices in tortor. Aenean varius, turpis sed luctus tincidunt, mauris nisl consectetur nibh, sed volutpat nisi quam rhoncus ex.</p>
                 </div>
             </div>
-            <div class="col col-lg-4 col-md-6">
+            <div class="col col-lg-4">
                 <div class="card mb-4 rounded-3 shadow-sm">
                 <img src="https://img.freepik.com/free-vector/people-analyzing-growth-charts-illustrated_23-2148865274.jpg?w=826&t=st=1663592532~exp=1663593132~hmac=d8cbe26221cc0d2960f81195f9f77404349bcefad8ffbd635139d5cc89bc894c" alt="" class="vector">
                 <h5 class="card-title"> Enterprise application integration</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus eget nisi id accumsan. Aenean porta massa justo, sit amet placerat nisi egestas dictum. Donec urna ipsum, imperdiet et sagittis at, ultrices in tortor. Aenean varius, turpis sed luctus tincidunt, mauris nisl consectetur nibh, sed volutpat nisi quam rhoncus ex.</p>
                 </div>
             </div>
-            <div class="col col-lg-4 col-md-6">
+            <div class="col col-lg-4">
                 <div class="card mb-4 rounded-3 shadow-sm">
                 <img src="https://img.freepik.com/free-vector/indian-rupee-investment-concept_23-2148008397.jpg?w=826&t=st=1663592559~exp=1663593159~hmac=3140ca849eaa071546d3aba0e7b0a5bdc514ed2416eac8129ba94f41ea8ddd52" alt="" class="vector">
                 <h5 class="card-title">Architechture Services</h5>
@@ -191,35 +193,35 @@
             </div>
         </div>
     </footer> -->
-    <footer id="footer" class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
-        <div class="col mb-4 align-middle">
-            <a class="navbar-brand text-uppercase align-middle" style="margin: auto;" href="#carouselIndicators">Branding</a>
-        </div>
-
-    
-        <div class="col mb-4">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Team</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mission & vision</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Products</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Insights</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms of service</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy policy</a></li>
-          </ul>
-        </div>
-    
-        <div class="col mb-4">
-          <h5>CONTACT US</h5>
-          <p class="card-text">Lorem ipsum
-            Maecenas maximus eget nisi id accumsan.
-            <br>123456
-          </p>
-            <p class="list-group-item"><b>Phone:</b>0123456789</p>
-            <p class="list-group-item"><b>Email:</b>abc@xyz.com</p>
+    <footer id="footer">
+        <div class="custom-div row width row-cols-1 row-cols-lg-3 mb-3">
+            <div class="col col-lg-4 align-middle">
+                <a class="navbar-brand text-uppercase align-middle" style="margin: auto;" href="#carouselIndicators">Branding</a>
+            </div>    
+            <div class="col col-lg-4">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Team</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mission & vision</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Products</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Insights</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms of service</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy policy</a></li>
+              </ul>
+            </div>
+        
+            <div class="col col-lg-4">
+              <h5>CONTACT US</h5>
+              <p class="card-text">Lorem ipsum
+                Maecenas maximus eget nisi id accumsan.
+                <br>123456
+              </p>
+                <p class="list-group-item"><b>Phone:</b>0123456789</p>
+                <p class="list-group-item"><b>Email:</b>abc@xyz.com</p>
+            </div>
         </div>
       </footer>
 </body>
