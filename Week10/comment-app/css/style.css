@@ -1,0 +1,15 @@
+em {
+   color: rgb(99, 99, 99);
+}
+
+.card{
+   margin: 0.2rem;
+}
+
+.fa-solid {
+   color: grey;
+}
+
+.fa-trash {
+   color: red;
+}
